@@ -9,7 +9,8 @@
 strcpy, strlen, and etc <- using '\0' (delimiter)
 strcmp <- cost of comparision for two string is not cheap.? - so we should reduce comparisions for two string.
 
-    ```c
+
+```c
     void func(const char* str1, const char* str2)
     {
         if (strcmp(str1, str2) < 0) {
@@ -19,11 +20,11 @@ strcmp <- cost of comparision for two string is not cheap.? - so we should reduc
             // do something..
         }
     }
-    ```
+```
     
     =>
     
-    ```c
+```c
     void func(const char* str1, const char* str2) 
     {
         int chk = strcmp(str1, str2);
@@ -35,4 +36,4 @@ strcmp <- cost of comparision for two string is not cheap.? - so we should reduc
             // do something..
         }
     }
-    ```
+```
