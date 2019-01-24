@@ -37,3 +37,23 @@ strcmp <- cost of comparision for two string is not cheap.? - so we should reduc
         }
     }
 ```
+
+check c++ version?
+
+```cpp
+    void func(const string& str1, const string& str2)
+    {
+        if (str1 < str2) 
+        {
+            // do something..
+        }
+        else if (str1 > str2)
+        {
+            // do something..
+        }
+    }
+```
+
+=> 
+
+??
