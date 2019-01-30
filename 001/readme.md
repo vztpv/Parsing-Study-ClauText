@@ -1,4 +1,4 @@
-1. C-String
+1. C-String and strcmp
 
     ```c
     char str[] = "hello world!";
